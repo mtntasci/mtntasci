@@ -1,374 +1,317 @@
 <div align="center">
 
-# 👋 Hi, I'm Metin Taşçı
+# Metin Taşçı
 
-### CTO • Software Architect • Product Builder
+### CTO • Technology Entrepreneur • Software Architect
 
-I design and build secure, local-first and AI-powered software platforms.
+Building secure, private and intelligent systems across
+**Artificial Intelligence, Defense Technologies, Software Quality and Autonomous Systems**
 
-My work focuses on:
-
-**Local AI Infrastructure • Autonomous Testing • Legal AI • System Monitoring • Secure Software Architecture**
-
-[![Website](https://img.shields.io/badge/Website-alafteknoloji.com-black?style=for-the-badge)](https://alafteknoloji.com)
-[![GitHub](https://img.shields.io/badge/GitHub-mtntasci-181717?style=for-the-badge&logo=github)](https://github.com/mtntasci)
+[![Website](https://img.shields.io/badge/ALAF_Technology-alafteknoloji.com-111111?style=for-the-badge)](https://alafteknoloji.com)
+[![GitHub](https://img.shields.io/badge/GitHub-mtntasci-181717?style=for-the-badge\&logo=github)](https://github.com/mtntasci)
 
 </div>
 
 ---
 
-## 🏗️ Product Ecosystem
+## About Me
 
-```mermaid
-flowchart TD
-    MT["👨‍💻 Metin Taşçı<br/>CTO & Software Architect"]
+I am a technology entrepreneur and software architect focused on developing secure, scalable and commercially viable technology platforms.
 
-    MT --> ALAF["🏢 ALAF Technology"]
-    MT --> SOM["🛡️ SOM Defense"]
+As the founder and technology executive of companies operating in software and defense technologies, I work across product strategy, system architecture, artificial intelligence infrastructure, engineering management and research and development.
 
-    ALAF --> NODE["🧠 AlafNode<br/>Local AI Control Plane"]
-    ALAF --> CORE["🖥️ AlafCore<br/>System Monitoring"]
-    ALAF --> LEGAL["⚖️ ALAF Legal<br/>Legal Intelligence"]
-
-    SOM --> TEST["🛡️ SOMTest<br/>Autonomous Software Testing"]
-
-    NODE --> LLM["🤖 Local LLMs"]
-    NODE --> AGENT["⚙️ Go Agent"]
-    NODE --> PANEL["🌐 Web Control Panel"]
-
-    CORE --> MONITORING["📊 Hardware & System Telemetry"]
-    LEGAL --> RAG["📚 Private RAG & Document Analysis"]
-    TEST --> QA["✅ Quality, Security & Compliance"]
-```
+My primary focus is turning complex technical requirements into reliable systems that can operate securely in private, regulated and high-assurance environments.
 
 ---
 
-# 🧠 **AlafNode**
-
-> **A production-oriented local AI infrastructure platform for deploying, pairing and managing private AI nodes.**
-
-AlafNode provides a centralized control plane for running and managing local artificial intelligence infrastructure without sending sensitive data outside the organization.
-
-### Key Capabilities
-
-- Secure node registration and pairing
-- Local LLM deployment and management
-- Ollama integration
-- Remote node monitoring
-- Agent-based system control
-- Private and local-first AI architecture
-- Centralized web management panel
-- Secure communication between nodes
-- Multi-node infrastructure support
-
-### Architecture
+## Companies & Fields of Activity
 
 ```mermaid
 flowchart LR
-    USER["👤 Administrator"]
-    PANEL["🌐 Next.js Control Panel"]
-    FIREBASE["🔥 Firebase"]
-    AGENT["⚙️ Go Agent"]
-    OLLAMA["🤖 Ollama"]
-    MODELS["🧠 Local AI Models"]
-    SERVER["🖥️ Linux / macOS Node"]
+    MT["Metin Taşçı<br/>CTO & Software Architect"]
 
-    USER --> PANEL
-    PANEL --> FIREBASE
-    FIREBASE --> AGENT
-    AGENT --> SERVER
-    AGENT --> OLLAMA
-    OLLAMA --> MODELS
+    MT --> ALAF["ALAF Technology"]
+    MT --> SOM["SOM Defense"]
 
-    SERVER -. Telemetry .-> AGENT
-    AGENT -. Status & Metrics .-> PANEL
+    ALAF --> AI["Artificial Intelligence"]
+    ALAF --> SW["Enterprise Software"]
+    ALAF --> CYBER["Cybersecurity"]
+    ALAF --> LEGAL["Legal Technologies"]
+    ALAF --> INFRA["Private AI Infrastructure"]
+
+    SOM --> DEFENSE["Defense Technologies"]
+    SOM --> AUTONOMOUS["Autonomous Systems"]
+    SOM --> TESTING["Software Testing"]
+    SOM --> VISION["Computer Vision"]
+    SOM --> DRONE["Unmanned Systems"]
 ```
 
-> **Core technologies:** Next.js, TypeScript, Go, Firebase, Ollama, Linux, Local LLMs
+### **ALAF Technology**
+
+ALAF Technology operates in the fields of:
+
+* Artificial intelligence platforms
+* Private and local AI infrastructure
+* Enterprise software development
+* Legal technologies
+* Cybersecurity solutions
+* Data analysis and document intelligence
+* Infrastructure monitoring
+* Web and mobile application development
+* Research and development
+
+### **SOM Defense**
+
+SOM Defense focuses on:
+
+* Defense software technologies
+* Autonomous systems
+* Unmanned aerial systems
+* Computer vision
+* Artificial intelligence at the edge
+* Secure communication architectures
+* Mission-critical software
+* Software quality and security testing
+* High-assurance and regulated systems
 
 ---
 
-# 🖥️ **AlafCore**
-
-> **A lightweight infrastructure and hardware monitoring ecosystem designed specifically for Apple Silicon and local AI systems.**
-
-AlafCore provides visibility into system health, hardware resources and local AI workloads.
-
-### Key Capabilities
-
-- CPU, RAM and storage monitoring
-- Apple Silicon system telemetry
-- Local AI workload observation
-- Hardware health monitoring
-- Resource utilization tracking
-- Node-level observability
-- Infrastructure status reporting
-- Lightweight monitoring architecture
-
-```mermaid
-flowchart TD
-    DEVICE["🖥️ Apple Silicon / Server"]
-    COLLECTOR["📡 AlafCore Collector"]
-    METRICS["📊 System Metrics"]
-    AI["🤖 Local AI Workloads"]
-    DASHBOARD["🌐 Monitoring Dashboard"]
-    ALERTS["🚨 Health Alerts"]
-
-    DEVICE --> COLLECTOR
-    COLLECTOR --> METRICS
-    COLLECTOR --> AI
-    METRICS --> DASHBOARD
-    AI --> DASHBOARD
-    DASHBOARD --> ALERTS
-```
-
-> **Core technologies:** Go, Swift, TypeScript, macOS, Linux, Apple Silicon, System Telemetry
-
----
-
-# 🛡️ **SOMTest**
-
-> **A local-first software quality and security platform designed for high-assurance and regulated environments.**
-
-SOMTest automates software testing, security analysis and compliance reporting while keeping source code inside the organization.
-
-### Key Capabilities
-
-- Autonomous test generation
-- Static code analysis
-- Security testing
-- Code coverage analysis
-- Traceability reporting
-- Local AI-assisted testing
-- Zero-trust architecture
-- Private source code processing
-- Compliance-oriented reporting
-
-### Target Standards
-
-- DO-178C
-- MIL-STD-498
-- DISA STIG
-- Secure software development practices
-- High-assurance quality processes
-
-```mermaid
-flowchart LR
-    SOURCE["💻 Source Code"]
-    ENGINE["🛡️ SOMTest Engine"]
-    AI["🤖 Local AI"]
-    TESTS["🧪 Automated Tests"]
-    SECURITY["🔐 Security Analysis"]
-    COVERAGE["📈 Code Coverage"]
-    REPORTS["📄 Compliance Reports"]
-
-    SOURCE --> ENGINE
-    ENGINE --> AI
-    AI --> TESTS
-    ENGINE --> SECURITY
-    ENGINE --> COVERAGE
-    TESTS --> REPORTS
-    SECURITY --> REPORTS
-    COVERAGE --> REPORTS
-```
-
-> **Core technologies:** Local LLMs, Static Analysis, Automated Testing, Security Testing, Compliance Reporting
-
----
-
-# ⚖️ **ALAF Legal**
-
-> **An AI-assisted legal intelligence platform built around private deployment, source-grounded responses and auditable outputs.**
-
-ALAF Legal is designed to analyze legal documents, retrieve relevant decisions and produce traceable AI-assisted outputs.
-
-### Key Capabilities
-
-- Legal document analysis
-- Private RAG infrastructure
-- Source-grounded AI responses
-- Similar case and precedent retrieval
-- Large document summarization
-- Petition and defense draft assistance
-- Auditable outputs
-- Institution-level data isolation
-- Local and private deployment
-
-```mermaid
-flowchart TD
-    DOCUMENTS["📚 Legal Documents"]
-    INGESTION["📥 Document Ingestion"]
-    INDEX["🧠 Private Knowledge Index"]
-    LLM["🤖 Local Legal AI"]
-    SEARCH["🔎 Precedent Search"]
-    ANSWER["📝 Grounded Response"]
-    SOURCES["📎 Source Citations"]
-
-    DOCUMENTS --> INGESTION
-    INGESTION --> INDEX
-    INDEX --> LLM
-    INDEX --> SEARCH
-    SEARCH --> LLM
-    LLM --> ANSWER
-    ANSWER --> SOURCES
-```
-
-> **Core technologies:** RAG, Local LLMs, Vector Search, Document Analysis, Legal AI, Private Infrastructure
-
----
-
-# 🚀 **Additional Product Work**
-
-### SOM Crypto
-
-A non-custodial cryptocurrency wallet focused on Ethereum and USDT transactions.
-
-- React Native
-- Biometric and PIN protection
-- QR-based transactions
-- Testnet and mainnet support
-- Secure local wallet architecture
-
-### AI-Powered Defense Systems
-
-Research and product development involving:
-
-- Computer vision
-- Autonomous systems
-- Drone technologies
-- Facial recognition
-- Secure edge AI
-- Local inference infrastructure
-
-### Enterprise AI Platforms
-
-Development of private AI systems for:
-
-- Document analysis
-- Internal knowledge retrieval
-- Software quality assurance
-- Infrastructure management
-- Regulated and high-security environments
-
----
-
-## 🧩 Engineering Approach
+## Technology Interests
 
 ```mermaid
 mindmap
-  root((Engineering Principles))
-    Local First
-      Private Data
-      Offline Capability
+  root((Technology))
+    Artificial Intelligence
       Local LLMs
+      AI Agents
+      RAG Systems
+      Computer Vision
+      Multimodal AI
+      Model Orchestration
+    Software Architecture
+      Distributed Systems
+      Agent Architectures
+      Microservices
+      Event Driven Systems
+      API Design
+    Infrastructure
+      Linux Servers
+      Apple Silicon
+      Containers
+      Observability
+      Edge Computing
+      Private Cloud
     Security
       Zero Trust
-      Least Privilege
-      Secure Pairing
-    Architecture
-      Modular Systems
-      Control Plane
-      Agent Based Design
-    Quality
-      Automated Testing
-      Observability
-      Traceability
-    Product
-      Real Problems
-      Scalable Platforms
-      Enterprise Ready
+      Secure Software
+      Static Analysis
+      Digital Forensics
+      Data Privacy
+    Autonomous Systems
+      Drones
+      Edge AI
+      Sensor Systems
+      Image Processing
+    Product Development
+      SaaS
+      Enterprise Software
+      Mobile Applications
+      Developer Tools
 ```
 
 ---
 
-## 🛠️ Technology Stack
+## Current Areas of Focus
 
-### Languages
+* Local and private artificial intelligence systems
+* Local LLM deployment and orchestration
+* AI agents and autonomous workflows
+* Retrieval-Augmented Generation systems
+* Secure enterprise AI infrastructure
+* Apple Silicon and GPU-based local computing
+* Software quality automation
+* Static code and security analysis
+* Autonomous testing systems
+* Computer vision and image processing
+* Defense and mission-critical software
+* Legal document intelligence
+* Infrastructure monitoring and observability
+* Edge computing
+* Distributed agent architectures
+* Non-custodial blockchain applications
 
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)
+---
 
-### Frontend
+## Technical Ecosystem
 
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+```mermaid
+flowchart TD
+    AI["Artificial Intelligence"]
 
-### Backend & Infrastructure
+    AI --> LLM["Local LLMs"]
+    AI --> AGENTS["AI Agents"]
+    AI --> RAG["RAG Systems"]
+    AI --> VISION["Computer Vision"]
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+    LLM --> OLLAMA["Ollama"]
+    LLM --> MODELS["Open-Source Models"]
+
+    AGENTS --> GO["Go Agents"]
+    AGENTS --> PYTHON["Python Services"]
+    AGENTS --> NODE["Node.js Services"]
+
+    RAG --> VECTOR["Vector Databases"]
+    RAG --> DOCS["Document Intelligence"]
+
+    VISION --> EDGE["Edge AI"]
+    VISION --> AUTONOMOUS["Autonomous Systems"]
+
+    GO --> INFRA["Private Infrastructure"]
+    PYTHON --> INFRA
+    NODE --> INFRA
+
+    INFRA --> LINUX["Linux"]
+    INFRA --> DOCKER["Docker"]
+    INFRA --> APPLE["Apple Silicon"]
+    INFRA --> CLOUD["Cloud Platforms"]
+```
+
+---
+
+## Languages & Frameworks
+
+### Programming Languages
+
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge\&logo=go\&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge\&logo=typescript\&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
+![Swift](https://img.shields.io/badge/Swift-F05138?style=for-the-badge\&logo=swift\&logoColor=white)
+
+### Web & Mobile
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge\&logo=nextdotjs\&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge\&logo=react\&logoColor=61DAFB)
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge\&logo=react\&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge\&logo=nodedotjs\&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge\&logo=tailwindcss\&logoColor=white)
 
 ### Artificial Intelligence
 
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
-![Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge\&logo=ollama\&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge\&logo=openai\&logoColor=white)
+![Google Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge\&logo=googlegemini\&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge\&logo=huggingface\&logoColor=black)
+
+### Infrastructure & Data
+
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge\&logo=linux\&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge\&logo=docker\&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge\&logo=firebase\&logoColor=black)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge\&logo=postgresql\&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge\&logo=githubactions\&logoColor=white)
+![Apple Silicon](https://img.shields.io/badge/Apple_Silicon-000000?style=for-the-badge\&logo=apple\&logoColor=white)
 
 ---
 
-## 📍 Current Focus
+## Engineering Principles
 
 ```mermaid
-timeline
-    title Product Development Focus
+flowchart LR
+    PRIVACY["Privacy by Design"]
+    LOCAL["Local First"]
+    SECURITY["Zero Trust"]
+    MODULAR["Modular Architecture"]
+    OBSERVABLE["Observability"]
+    QUALITY["Automated Quality"]
+    PRODUCT["Product-Oriented Engineering"]
 
-    Local AI Infrastructure
-        : AlafNode
-        : Private LLM Management
-        : Secure Node Architecture
-
-    Software Quality
-        : SOMTest
-        : Autonomous Testing
-        : Compliance Automation
-
-    Legal Intelligence
-        : ALAF Legal
-        : Private RAG
-        : Source-Grounded AI
-
-    Infrastructure
-        : AlafCore
-        : Apple Silicon Monitoring
-        : Local AI Observability
+    PRIVACY --> LOCAL
+    LOCAL --> SECURITY
+    SECURITY --> MODULAR
+    MODULAR --> OBSERVABLE
+    OBSERVABLE --> QUALITY
+    QUALITY --> PRODUCT
 ```
 
----
+I believe that modern software systems should be:
 
-## 🤝 Leadership
-
-As a CTO and product architect, I focus on turning complex technical requirements into reliable and commercially viable software platforms.
-
-My responsibilities include:
-
-- Product and technology strategy
-- Software architecture
-- AI infrastructure design
-- Engineering team leadership
-- Security and privacy architecture
-- Technical research and development
-- Enterprise and defense technology projects
-- Product delivery from concept to production
+* **Secure by default**
+* **Private by design**
+* **Local-first where possible**
+* **Observable and auditable**
+* **Modular and maintainable**
+* **Independent from unnecessary vendor lock-in**
+* **Designed around real operational requirements**
+* **Built as products rather than temporary prototypes**
 
 ---
 
-## 📊 GitHub Statistics
+## Architecture & Leadership
+
+My work includes:
+
+* Technology and product strategy
+* Software and system architecture
+* Artificial intelligence infrastructure design
+* Engineering team leadership
+* Research and development management
+* Technical feasibility analysis
+* Security and privacy architecture
+* Productization of research projects
+* Enterprise and defense technology development
+* Architecture review and technical decision-making
+* Local computing and homelab infrastructure
+* Moving systems from proof of concept to production
+
+---
+
+## Research & Development
+
+I am particularly interested in the intersection of:
+
+```mermaid
+flowchart LR
+    AI["Artificial Intelligence"]
+    SECURITY["Cybersecurity"]
+    DEFENSE["Defense Technology"]
+    SOFTWARE["Software Engineering"]
+    EDGE["Edge Computing"]
+
+    AI <--> SECURITY
+    AI <--> DEFENSE
+    AI <--> SOFTWARE
+    AI <--> EDGE
+
+    SECURITY <--> SOFTWARE
+    DEFENSE <--> EDGE
+    SOFTWARE <--> EDGE
+```
+
+* Artificial intelligence and secure software
+* Local AI and data sovereignty
+* Autonomous systems and edge computing
+* AI-supported software testing
+* Computer vision and unmanned systems
+* Private RAG and document intelligence
+* Agent-based infrastructure management
+* Apple Silicon for local AI workloads
+* Open-source AI deployment
+* High-assurance software development
+
+---
+
+## GitHub Statistics
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mtntasci&show_icons=true&hide_border=true&theme=github_dark)
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=mtntasci&show_icons=true&hide_border=true&theme=github_dark" />
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mtntasci&layout=compact&hide_border=true&theme=github_dark)
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mtntasci&layout=compact&hide_border=true&theme=github_dark" />
 
-![GitHub Streak](https://streak-stats.demolab.com?user=mtntasci&theme=github-dark-blue&hide_border=true)
+<br/>
+
+<img src="https://streak-stats.demolab.com?user=mtntasci&theme=github-dark-blue&hide_border=true" />
 
 </div>
 
@@ -376,16 +319,16 @@ My responsibilities include:
 
 <div align="center">
 
-## 📫 Contact
+## Contact
 
-**Alaf Teknoloji Savunma Sanayi ve Havacılık A.Ş.**
+**ALAF Technology Defense Industry and Aviation Inc.**
 
-🌐 [alafteknoloji.com](https://alafteknoloji.com)
+[alafteknoloji.com](https://alafteknoloji.com)
 
-💻 [github.com/mtntasci](https://github.com/mtntasci)
+[github.com/mtntasci](https://github.com/mtntasci)
 
----
+<br/>
 
-### Building secure, private and intelligent systems.
+### Secure systems. Private intelligence. Real-world technology.
 
 </div>
