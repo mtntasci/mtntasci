@@ -299,24 +299,6 @@ flowchart LR
 * Open-source AI deployment
 * High-assurance software development
 
----
-
-## GitHub Statistics
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=mtntasci&show_icons=true&hide_border=true&theme=github_dark" />
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mtntasci&layout=compact&hide_border=true&theme=github_dark" />
-
-<br/>
-
-<img src="https://streak-stats.demolab.com?user=mtntasci&theme=github-dark-blue&hide_border=true" />
-
-</div>
-
----
-
 <div align="center">
 
 ## Contact
