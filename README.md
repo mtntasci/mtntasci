@@ -94,38 +94,21 @@ My work spans artificial intelligence infrastructure, distributed systems, softw
 
 ---
 
-# Technical Landscape
+## Technical Focus
 
-```mermaid
-mindmap
-  root((Engineering))
-    Artificial Intelligence
-      Local LLMs
-      AI Agents
-      RAG
-      Computer Vision
-      Multimodal AI
-    Software Architecture
-      Distributed Systems
-      APIs
-      Microservices
-      Event Driven
-    Infrastructure
-      Linux
-      Docker
-      Apple Silicon
-      GPU Computing
-      Cloud
-    Security
-      Zero Trust
-      Privacy by Design
-      Secure Software
-    Engineering
-      Automation
-      Testing
-      Observability
-      DevOps
-```
+| AI & Machine Learning | Software Engineering | Infrastructure |
+|------------------------|----------------------|----------------|
+| Local LLMs | Software Architecture | Linux |
+| AI Agents | Distributed Systems | Docker |
+| Computer Vision | Backend Development | Cloud |
+| RAG Systems | API Design | Apple Silicon |
+| Multimodal AI | System Design | GPU Computing |
+
+| Security | Product Engineering | Research |
+|----------|---------------------|----------|
+| Zero Trust | Engineering Leadership | Autonomous Systems |
+| Privacy by Design | Product Strategy | Edge AI |
+| Secure Software | Technical Decision Making | High-Assurance Systems |
 
 ---
 
