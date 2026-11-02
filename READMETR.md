@@ -6,9 +6,8 @@
 
 Yapay Zeka, Yerel Büyük Dil Modelleri (Local LLM), Dağıtık Mimariler ve Kritik Görev Platformları odaklı; güvenli, ölçeklenebilir ve gizlilik öncelikli yazılım sistemleri tasarlıyorum.
 
-[https://img.shields.io/badge/ALAF_Teknoloji-alafteknoloji.com-111111?style=for-the-badge]](https://alafteknoloji.com)
-[https://img.shields.io/badge/GitHub-mtntasci-181717?style=for-the-badge&logo=github]](https://github.com/mtntasci)
-
+[![Website](https://img.shields.io/badge/ALAF_Technology-alafteknoloji.com-111111?style=for-the-badge)](https://alafteknoloji.com)
+[![GitHub](https://img.shields.io/badge/GitHub-mtntasci-181717?style=for-the-badge&logo=github)](https://github.com/mtntasci)
 </div>
 
 ---
